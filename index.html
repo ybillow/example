@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors Example</title>
+    <style>
+        /* ID Selector */
+        #highlight-id {
+            color: red;
+            background-color: yellow;
+        }
+
+        /* Compound Selector (element with class) */
+        div.compound-selector {
+            color: green;
+            background-color: lightblue;
+        }
+
+        /* Child Selector (specifically targets span within #parent) */
+        #parent > span {
+            color: blue;
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="highlight-id">ID Selector Example</h1>
+    <div class="compound-selector">Compound Selector Example (div with class)</div>
+    <div id="parent">
+        <span>Child Selector Example (span within div)</span>
+    </div>
+</body>
+</html>
